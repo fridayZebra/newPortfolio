@@ -1,0 +1,104 @@
+@media only screen and (max-width: 600px) {
+  body {
+    box-sizing: border-box;
+    margin: auto;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      'nav '
+      'main'
+      'footer ';
+  }
+
+  .navbar {
+    grid-area: nav;
+    background: #143a52;
+    position: sticky;
+    top: 0;
+  }
+
+  .ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    color: white;
+    padding: auto;
+    margin: 5px 0;
+  }
+
+  li {
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    margin: auto;
+  }
+  li > a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .main {
+    display: grid;
+  }
+
+  .intro {
+    display: none;
+  }
+
+  .firoz-at-desk {
+    width: 100%;
+  }
+
+  .work {
+    width: 100%;
+    margin: auto;
+  }
+
+  h3 {
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 10px 5px;
+  }
+
+  h4 {
+    border-bottom: 1px solid red;
+    display: block;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .project1,
+  .project2,
+  .project3,
+  .project4 {
+    display: block;
+    margin: auto;
+  }
+
+  p {
+    line-height: 1.25;
+    display: block;
+    margin: 0 auto;
+    padding: 2px 20px 0;
+  }
+
+  .project-img {
+    width: 100%;
+    display: block;
+    margin: 0 auto 15px;
+  }
+
+  .heading {
+    font-weight: bold;
+  }
+
+  .footer {
+    grid-area: footer;
+    width: 100%;
+  }
+}
