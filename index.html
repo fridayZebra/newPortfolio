@@ -8,8 +8,10 @@
   <!-- <link href='https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css' /> -->
   <link href='https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css' />
   <link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans|Bubbler+One|Exo|Roboto" rel="stylesheet">
-  <link href="media.css" rel="stylesheet" type="text/css" />
+
   <link href="main.css" rel="stylesheet" type="text/css" />
+  <!-- <link href="media.css" rel="stylesheet" type="text/css" /> -->
+
   <script defer src="https://use.fontawesome.com/releases/v5.0.3/js/all.js"></script>
   <title>firoz</title>
 </head>
@@ -42,19 +44,30 @@
       </nav>
     </div>
     <div class='main'>
-      <img class='firoz-at-desk' src='./images/tree.jpeg' alt=''>
+      <div class='intro'>
+        <p>
+          My name is Firoz (fee-rose) and I'm a Frontend Engineer out of Anaheim, CA. I wanted to build applications that weren't being
+          built and solve problems that weren't being solved. So, I left my life
+          in investment finance and found a new home in web development. </p>
+        <p>When I'm not in front of the computer, I can be found on the water, scuba diving or sailing.
+        </p>
+
+      </div>
+      <img usemap='#octo' class='firoz-at-desk' src='./images/octoMap.jpg' alt=''>
+      <map name="octo">
+        <area shape="circle" coords="60,125,100" href="#about">
+        <area shape="circle" coords="175,160,100" href="#work">
+        <area shape="circle" coords="185,90,100" href="#contact">
+      </map>
+
       <div class='about' id='about'>
         <h3>About Me</h3>
         <p>
-          My name is Firoz (fee-rose) and I'm a Frontend Engineer out of Anaheim, CA. I wanted to build applications that weren't being
-          built, solve problems that weren't being solved and be challenged (and frustrated) every day. So, I left my life
-          in investment finance and found a new home in web development.</p>
-        <p>I haven't been doing this very long, but can already say that it's the best decision I've ever made. I LOVE making
-          things efficient- from simple things like teaching people keyboard short cuts to automating processes. Interests:Octopuses(trust
-          me, it's not octopi), scuba diving, snow-kiting, sailing...really anything with the ocean. If I'm not in front
-          of the computer, I'm usually on the water
-
-        </p>
+            My name is Firoz (fee-rose) and I'm a Frontend Engineer out of Anaheim, CA. I wanted to build applications that weren't being
+            built and solve problems that weren't being solved. So, I left my life
+            in investment finance and found a new home in web development. </p>
+          <p>When I'm not in front of the computer, I can be found on the water, scuba diving or sailing.
+          </p>
       </div>
       <div class='work' id='work'>
         <h3>Work</h3>
@@ -64,36 +77,36 @@
             <span class='heading'>Description:</span> 60 words max </p>
           <p>
             <span class='heading'>How:</span> React, Redux, JavaScript, HTML5, CSS3</p>
-          <img class='project-img' src='https://placeimg.com/200/100/nature' alt=''>
+          <img class='project-img' src='https://placeimg.com/600/400/nature' alt=''>
         </div>
 
 
         <div class='project2'>
-            <h4>Project2</h4>
-            <p>
-              <span class='heading'>Description:</span> 60 words max </p>
-            <p>
-              <span class='heading'>How:</span> React, Redux, JavaScript, HTML5, CSS3</p>
-            <img class='project-img' src='https://placeimg.com/200/100/any' alt=''>
-          </div>
+          <h4>Project2</h4>
+          <p>
+            <span class='heading'>Description:</span> 60 words max </p>
+          <p>
+            <span class='heading'>How:</span> React, Redux, JavaScript, HTML5, CSS3</p>
+          <img class='project2-img' src='https://placeimg.com/600/400/any' alt=''>
+        </div>
 
-          <div class='project3'>
-              <h4>Project3</h4>
-              <p>
-                <span class='heading'>Description:</span> 60 words max </p>
-              <p>
-                <span class='heading'>How:</span> React, Redux, JavaScript, HTML5, CSS3</p>
-              <img class='project-img' src='https://placeimg.com/200/100/arch' alt=''>
-            </div>
+        <div class='project3'>
+          <h4>Project3</h4>
+          <p>
+            <span class='heading'>Description:</span> 60 words max </p>
+          <p>
+            <span class='heading'>How:</span> React, Redux, JavaScript, HTML5, CSS3</p>
+          <img class='project-img' src='https://placeimg.com/600/400/arch' alt=''>
+        </div>
 
-            <div class='project4'>
-                <h4>Project4</h4>
-                <p>
-                  <span class='heading'>Description:</span> 60 words max </p>
-                <p>
-                  <span class='heading'>How:</span> React, Redux, JavaScript, HTML5, CSS3</p>
-                <img class='project-img' src='https://placeimg.com/200/100/animals' alt=''>
-              </div>
+        <div class='project4'>
+          <h4>Project4</h4>
+          <p>
+            <span class='heading'>Description:</span> 60 words max </p>
+          <p>
+            <span class='heading'>How:</span> React, Redux, JavaScript, HTML5, CSS3</p>
+          <img class='project-img' src='https://placeimg.com/600/400/animals' alt=''>
+        </div>
 
 
       </div>
@@ -102,7 +115,11 @@
 
     </div>
 
-    <div class='footer'>footer</div>
+    <div class='footer' id='contact'>
+
+      Footer
+
+    </div>
 
 
 
