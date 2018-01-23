@@ -3,7 +3,7 @@ font-family: 'Exo', sans-serif;
 font-family: 'Bubbler One', sans-serif;
 font-family: 'Roboto', sans-serif; */
 
-@media only screen and (max-width: 1200px) and (min-width: 601px) {
+@media only screen and (max-width: 1600px) and (min-width: 601px) {
   body {
     box-sizing: border-box;
     margin: auto;
@@ -206,6 +206,7 @@ font-family: 'Roboto', sans-serif; */
   img {
     width: 100%;
     height: auto;
+    border-radius: 5px;
   }
 
   .work {
