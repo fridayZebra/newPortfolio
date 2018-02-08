@@ -3,6 +3,12 @@ font-family: 'Exo', sans-serif;
 font-family: 'Bubbler One', sans-serif;
 font-family: 'Roboto', sans-serif; */
 
+
+.navbar {
+  height: 50px;
+  padding-top: 15px;
+}
+
 .footer {
   display: block;
   grid-area: footer;
@@ -12,7 +18,19 @@ font-family: 'Roboto', sans-serif; */
   color: white;
   text-align: center;
   padding: 10px 0 0 0;
+  bottom: 0;
+  position: fixed;
 }
+
+.firoz-at-desk {
+  background-color: lightgray;
+  padding: 50px;
+}
+.about {
+  background-color: aliceblue;
+  
+}
+
 
 .footer-email, .to-top {
   text-decoration: none;
@@ -48,6 +66,7 @@ font-family: 'Roboto', sans-serif; */
     position: fixed;
     top: 0;
     width: 100%;
+    
   }
   .js-navbar-onScroll {
     position: fixed;
@@ -123,7 +142,7 @@ font-family: 'Roboto', sans-serif; */
   .about {
     grid-column: 1/3;
     grid-row: 2/3;
-    margin: 150px 25px;
+    padding: 150px 25px;
   }
 
   .work {
