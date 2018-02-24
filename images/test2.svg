@@ -3019,11 +3019,12 @@ qUV8+hU/FPUKN+nb4P/Z" transform="matrix(1 0 0 1 10 6)">
 </image>
 <g>
 	<rect x="681" y="95" class="st0" width="484" height="262"/>
-<a href='#about'>About</a>
+
 </g>
 <g>
 	<rect x="1213.5" y="95.5" class="st1" width="483" height="261"/>
 	<path d="M1696,96v260h-482V96H1696 M1697,95h-484v262h484V95L1697,95z"/>
+<a href='#about'>About</a>
 </g>
 <g>
 	<rect x="679.5" y="388.5" class="st1" width="1017" height="360"/>
